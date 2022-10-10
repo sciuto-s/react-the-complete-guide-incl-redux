@@ -1,8 +1,9 @@
 import "./style/Card.css";
 
 const Card = (props) => {
-  //FIGATA
+  //FIGATA/////
   const classes = "card " + props.className;
+  /////////////
   return (
     <div className={classes}>
       {props.children}
